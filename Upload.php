@@ -4,7 +4,7 @@
 	$config = require('config.php');
 
 	$keyName = 'prueba/' . basename($_FILES["fileToUpload"]['name']);
-	$pathInS3 = 'https://s3.us-east-1.amazonaws.com/' . $config['s3']['bucket'] . '/' . $keyName;
+	$pathInS3 = 'https://s3.'.$config['s3']['region'].'.amazonaws.com/' . $config['s3']['bucket'] . '/' . $keyName;
 
 	try {
 		$file = $_FILES["fileToUpload"]['name'];
