@@ -9,6 +9,9 @@
 
 <!DOCTYPE html>
 <html>
+<head>
+        <link href="css/bootstrap.min.css" rel="stylesheet"/>
+</head>
     <body>
         <form action="Upload.php" method="post" enctype="multipart/form-data">
             Selecciona el archivo a cargar:
@@ -34,4 +37,8 @@
             </tbody>
         </table>
     </body>
+    <footer>
+            <script src="js/jquery.min.js"></script>
+            <script src="js/bootstrap.min.js"></script>
+    </footer>
 </html>
