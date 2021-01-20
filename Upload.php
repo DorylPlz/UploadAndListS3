@@ -1,5 +1,4 @@
 <?php
-	require 'C:/Users/daryl/vendor/autoload.php';
 	require 'start.php';
 	$config = require('config.php');
 
